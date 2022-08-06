@@ -97,17 +97,29 @@ header {
   font-weight: 500;
 }
 
+@keyframes scroll {
+  0% {
+    transform: translateX(20vw);
+  }
+  100% {
+    transform: translateX(-200vw);
+  }
+}
+
 .grid-brands {
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .grid-brands > img {
-  max-width: 15%;
+  max-width: 16%;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  // animation: scroll 10s linear infinite;
 }
 .grid-brands > img:hover {
   opacity: 0.8;
+  transform: scale(1.2);
 }
 
 .grid-categories {

@@ -95,6 +95,7 @@ const ShopRowDiv3 = document.querySelector(".row3");
 const initializeShopDiv = () => {
   for (let item of shopArr) {
     ShopRowDiv.innerHTML += `
+    
           <div class="col bgSettings" id="block${item.id}"></div>
         `;
   }

@@ -97,19 +97,19 @@ header {
 
 @-webkit-keyframes scroll {
   0% {
-    transform: translateX(20vw);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-200vw);
+    transform: translateX(-1500px);
   }
 }
 
 @keyframes scroll {
   0% {
-    transform: translateX(20vw);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-200vw);
+    transform: translateX(-1500px);
   }
 }
 .grid-brands {

@@ -3,12 +3,12 @@
 let imgSliderArr = [
   new Showcase(
     "summer sale",
-    "http://127.0.0.1:5501/assets/img/showcase.jpg",
+    "https://ifg-marketing.imgix.net/surfdome/github/com/home/slider/large/20220726-com-l.jpg",
     1
   ),
   new Showcase(
     "New Arrivals",
-    "http://127.0.0.1:5501/assets/img/showcase-newArrivals.jpg",
+    "https://ifg-marketing.imgix.net/surfdome/github/com/home/slider/large/20220131-gen-l.jpg",
     2
   ),
 ];
@@ -28,19 +28,28 @@ let ShopCategoriesArr = [
 let brandsArr = [
   new Brands(
     "North Face logo",
-    "http://127.0.0.1:5501/assets/img/grid-north-face.jpg"
+    "https://static5-surfdome.imgix.net/github/com/brands/the_north_face.jpg"
   ),
   new Brands(
     "Billabong logo",
-    "http://127.0.0.1:5501/assets/img/grid-billabong.jpg"
+    "https://ifg-marketing.imgix.net/surfdome/github/com/brands/billabong-01.jpg"
   ),
-  new Brands("Volcom logo", "http://127.0.0.1:5501/assets/img/grid-volcom.jpg"),
+  new Brands(
+    "Volcom logo",
+    "https://ifg-marketing.imgix.net/surfdome/github/com/brands/volcom2.jpg"
+  ),
   new Brands(
     "Patagonia logo",
-    "http://127.0.0.1:5501/assets/img/grid-patagonia.jpg"
+    "https://static5-surfdome.imgix.net/github/com/brands/patagonia.jpg"
   ),
-  new Brands("Vans logo", "http://127.0.0.1:5501/assets/img/grid-vans.jpg"),
-  new Brands("Hurley logo", "http://127.0.0.1:5501/assets/img/grid-hurley.jpg"),
+  new Brands(
+    "Vans logo",
+    "https://static5-surfdome.imgix.net/github/com/brands/vans.jpg"
+  ),
+  new Brands(
+    "Hurley logo",
+    "https://static5-surfdome.imgix.net/github/com/brands/hurley.jpg"
+  ),
 ];
 
 let shopArr = [
@@ -72,6 +81,6 @@ let subscribeArr = [
     "SUBSCRIBE TO SURFDOME",
     "By entering your email address above you explicitly consent for us to hold your data in accordance with our Privacy Policy",
     "Reviews 85,872 ⬆ Excellent",
-    "http://127.0.0.1:5501/assets/img/TrustPilot.svg"
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-4.5.svg"
   ),
 ];

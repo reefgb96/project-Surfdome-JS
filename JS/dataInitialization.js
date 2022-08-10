@@ -84,3 +84,128 @@ let subscribeArr = [
     "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-4.5.svg"
   ),
 ];
+
+let sliderArr = [
+  new Slider(
+    "Sofboards",
+    "https://ifg-marketing.imgix.net/surfdome/plp-banners/surfboards/20220523-surfboards-static-1.jpg",
+    1
+  ),
+  new Slider(
+    "Shortboards",
+    "https://ifg-marketing.imgix.net/surfdome/plp-banners/surfboards/20220523-surfboards-static-2.jpg",
+    2
+  ),
+  new Slider(
+    "Mid-lengths",
+    "https://ifg-marketing.imgix.net/surfdome/plp-banners/surfboards/20220523-surfboards-static-3.jpg",
+    3
+  ),
+];
+
+let surfboardsArr = [
+  new SurfboardItem(
+    "Pyzel",
+    "Pyzel Wildcat Futures Surfboard - Clear",
+    "twin",
+    612,
+    "https://internetfusion.imgix.net/1641469.jpg?auto=format,compress&cs=srgb&fit=fill&fill=solid&w=280&h=280&dpr=1",
+    1
+  ),
+  new SurfboardItem(
+    "CHANNEL ISLANDS",
+    "Channel Islands Bobby Quad Surfboard - White",
+    "quad",
+    670,
+    "https://internetfusion.imgix.net/1629745.jpg?auto=format,compress&cs=srgb&fit=fill&fill=solid&w=280&h=280&dpr=1",
+    2
+  ),
+  new SurfboardItem(
+    "CHANNEL ISLANDS",
+    "Channel Islands Free Scrubber Surfboard - White",
+    "twin",
+    670,
+    "https://internetfusion.imgix.net/1629765.jpg?auto=format,compress&cs=srgb&fit=fill&fill=solid&w=280&h=280&dpr=1",
+    3
+  ),
+  new SurfboardItem(
+    "Pyzel",
+    "Pyzel Pyzalien 2 Futures 5 Fin Surfboard - Clear",
+    "thruster",
+    608,
+    "https://internetfusion.imgix.net/1265684.jpg?auto=format,compress&cs=srgb&fit=fill&fill=solid&w=280&h=280&dpr=1",
+    4
+  ),
+  new SurfboardItem(
+    "CHANNEL ISLANDS",
+    "Channel Islands FishBeard Futures Twin Fin Surfboard - White",
+    "twin",
+    670,
+    "https://internetfusion.imgix.net/1138345.jpg?auto=format,compress&cs=srgb&fit=fill&fill=solid&w=280&h=280&dpr=1",
+    5
+  ),
+  new SurfboardItem(
+    "HAYDENSHAPES",
+    "Haydenshapes Hypto Krypto FutureFlex FCS II 5 Fin Surfboard - White",
+    "thruster",
+    680,
+    "https://internetfusion.imgix.net/1215112.jpg?auto=format,compress&cs=srgb&fit=fill&fill=solid&w=280&h=280&dpr=1",
+    6
+  ),
+  new SurfboardItem(
+    "CHANNEL ISLANDS",
+    "Channel Islands Two Happy Futures Thruster Surfboard - Clear",
+    "thruster",
+    650,
+    "https://internetfusion.imgix.net/1373083.jpg?auto=format,compress&cs=srgb&fit=fill&fill=solid&w=280&h=280&dpr=1",
+    7
+  ),
+  new SurfboardItem(
+    "Pyzel",
+    "Pyzel Gremlin Futures 5 Fin Surfboard - Fluro Green",
+    "twin",
+    650,
+    "https://internetfusion.imgix.net/768004.jpg?auto=format,compress&cs=srgb&fit=fill&fill=solid&w=280&h=280&dpr=1",
+    8
+  ),
+  new SurfboardItem(
+    "CHANNEL ISLANDS",
+    "Channel Islands Twin Pin Surfboard - White Teal",
+    "twin",
+    787,
+    "https://internetfusion.imgix.net/1629805.jpg?auto=format,compress&cs=srgb&fit=fill&fill=solid&w=280&h=280&dpr=1",
+    9
+  ),
+  new SurfboardItem(
+    "LOST",
+    "Lost Hydra Futures 5 Fin Surfboard - Light Blue / Dark Blue",
+    "thruster quad",
+    668,
+    "https://internetfusion.imgix.net/1407618.jpg?auto=format,compress&cs=srgb&fit=fill&fill=solid&w=280&h=280&dpr=1",
+    10
+  ),
+  new SurfboardItem(
+    "LOST",
+    "Lost Sub Driver 2.0 FCS II Thruster Surfboard - Clear",
+    "thruster",
+    630,
+    "https://internetfusion.imgix.net/1407646.jpg?auto=format,compress&cs=srgb&fit=fill&fill=solid&w=280&h=280&dpr=1",
+    11
+  ),
+  new SurfboardItem(
+    "LOST",
+    "Lost x MR California Twin FCS II Thruster Surfboard - Rail Spray",
+    "thruster twin",
+    653,
+    "https://internetfusion.imgix.net/1407617.jpg?auto=format,compress&cs=srgb&fit=fill&fill=solid&w=280&h=280&dpr=1",
+    12
+  ),
+  new SurfboardItem(
+    "LOST",
+    "Lost El Patron FCS II Thruster Surfboard - Clear",
+    "thruster",
+    620,
+    "https://internetfusion.imgix.net/1407618.jpg?auto=format,compress&cs=srgb&fit=fill&fill=solid&w=280&h=280&dpr=1",
+    13
+  ),
+];

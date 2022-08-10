@@ -22,7 +22,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
-    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/surf.css" />
     <link
       rel="shortcut icon"
       href="https://www.surfdome.com/surfdome/favicon.png"
@@ -35,11 +35,11 @@
       <div
         class="container d-flex justify-content-between align-items-center mt-2"
       >
-        <div class="logoWrapper">
-          <img
+        <div class="logoWrapper"><a href="index.html"><img
             src="https://www.surfdome.com/images/surfdome/surfdome-logo-no-tagline.png"
-            alt="SurfDome logo"
-          />
+            alt="SurfDome logo" 
+          /></a>
+          
         </div>
         <form class="d-flex" role="search">
           <input
@@ -102,37 +102,47 @@
       </div>
     </header>
 
+
+
+
+
     <main>
-      <div class="showcase flexEnd"></div>
-      <div class="btns flexCenterSpace">
-        <button type="button" class="btn-on-img">Men</button>
-        <button type="button" class="btn-on-img">Women</button>
-        <button type="button" class="btn-on-img">Kids</button>
-      </div>
+        <div class="hero"><img src="https://ifg-marketing.imgix.net/surfdome/plp-banners/surfboards/20220523-surfboards-desktop.jpg" alt="surfboards logo"></div>
+        <div class="surfboardCategories"></div>
+        <div class="pageDesc my-5 text-center">
+            <h2 class="mb-5">SURFBOARDS</h2>
+            <p class="mb-5">We have one of the widest and most interesting ranges of surfboards for sale. From beginner boards to high-performance thrusters, mini mals to retro mid-lengths, fishes and funboards to single-fin longboards, we have absolutely every angle covered. The range of constructions available is equally wide, catering to all tastes and requirements. Family-friendly foamies? Check. Innovative EPS and epoxy techs, featuring enhanced flex properties and more durable, environmentally friendly materials? You've come to the right place. Classic PU? We've got heaps. You'll find the biggest range of shapes, styles and technology right here at Surfdome.</p>
+        </div>
 
-      <div class="info my-5 d-flex justify-content-around"></div>
-
-      <div
-        class="grid-categories slider d-flex justify-content-around wrap my-5"></div>
-
-      <div class="grid-brands flexCenterSpace my-5">
-      </div>
-
-      <div class="grid-shop container text-center my-5">
-        <div class="row"></div>
-        <div class="row row2"></div>
-        <div class="row row3"></div>
-      </div>
-
-      <div class="desc container text-center my-5"></div>
+        <div class="surfboardsItems">
+                <div class="sortNFilter">
+                    <div class="btnWrapper">
+                        <button onclick="sortDir('⬆')" id="highLow" class="btn btn-dark"><i class="bi bi-sort-down"></i> High to low</button>
+                        <button onclick="sortDir('⬇')" id="lowHigh" class="btn btn-dark"><i class="bi bi-sort-up"></i> Low to high</button>
+                        <button id="filter" class="btn btn-dark"><i class="bi bi-funnel"></i> filter</button>
+                        <button id="shuffle" class="btn btn-dark"><i class="bi bi-shuffle"></i> Shuffle</button>
+                        <button id="toList" class="btn btn-dark"><i class="bi bi-list-columns"></i> List</button>
+                        <button id="toGrid" class="btn btn-dark"><i class="bi bi-grid-3x3-gap"></i> Grid</button>
+                        <button id="clear" class="btn btn-dark"><i class="bi bi-x-circle"></i> Clear</button>
+                    </div>
+                    <div class="searchBox">
+                        <input oninput="filterSearch(event)" class="inputSort" placeholder="Search items...">
+                    </div>
+                </div>
+            <ul class="surfboardsItemsList"></ul>
+        </div>
+        
     </main>
 
-    <footer class="my-5 p-1 bg-light">
-      <div class="subscribe text-center my-5"></div>
-    </footer>
 
-    <script src="JS/models/showcase.models.js"></script>
-    <script src="JS/dataInitialization.js"></script>
-    <script src="JS/script.js"></script>
-  </body>
-</html>
+    <footer class="my-5 p-1 bg-light">
+        <div class="subscribe text-center my-5"></div>
+      </footer>
+  
+      <script src="JS/models/showcase.models.js"></script>
+      <script src="JS/models/slider.models.js"></script>
+      <script src="JS/dataInitialization.js"></script>
+      <script src="JS/surf.js"></script>
+      <!-- <script src="JS/script.js"></script> -->
+    </body>
+  </html>

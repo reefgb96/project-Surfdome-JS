@@ -40,6 +40,10 @@ header {
   transition: 0.5s ease-in-out;
 }
 
+nav {
+  border-bottom: 1px solid #292e31;
+}
+
 .closeBtn {
   position: absolute;
   right: 0;
@@ -95,23 +99,6 @@ header {
   font-weight: 500;
 }
 
-@-webkit-keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-1500px);
-  }
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-1500px);
-  }
-}
 .grid-brands {
   overflow: hidden;
 }

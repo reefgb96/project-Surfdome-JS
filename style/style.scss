@@ -40,6 +40,10 @@ header {
   transition: 0.5s ease-in-out;
 }
 
+nav {
+  border-bottom: 1px solid #292e31;
+}
+
 .closeBtn {
   position: absolute;
   right: 0;
@@ -116,14 +120,14 @@ header {
 //   width: 250px;
 // }
 
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-250px * 6));
-  }
-}
+// @keyframes scroll {
+//   0% {
+//     transform: translateX(0);
+//   }
+//   100% {
+//     transform: translateX(calc(-250px * 6));
+//   }
+// }
 
 .grid-brands {
   // flex-wrap: wrap;
@@ -147,20 +151,20 @@ header {
   height: 22vh;
 }
 
-// .summerSurfBox {
-//   background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/statics/20220804-s1-com.jpg);
-//   width: 30%;
-// }
+.summerSurfBox {
+  background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/statics/20220804-s1-com.jpg);
+  width: 30%;
+}
 
-// .backToSchoolBox {
-//   background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/statics/20220721-s1-com.jpg);
-//   width: 30%;
-// }
+.backToSchoolBox {
+  background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/statics/20220721-s1-com.jpg);
+  width: 30%;
+}
 
-// .flipFlopsBox {
-//   background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/statics/20220804-s3-com_.jpg);
-//   width: 30%;
-// }
+.flipFlopsBox {
+  background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/statics/20220804-s3-com_.jpg);
+  width: 30%;
+}
 
 .summerSurfBox:hover,
 .backToSchoolBox:hover,
@@ -184,44 +188,44 @@ header {
   cursor: pointer;
 }
 
-// #block1 {
-//   background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/tiles/20220804-t1-com.jpg);
-//   height: 20vh;
-//   margin: 1px;
-// }
-// #block2 {
-//   background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/tiles/20220804-t2-com.jpg);
-//   height: 20vh;
-//   margin: 1px;
-// }
-// #block3 {
-//   background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/tiles/20220804-t3-com.jpg);
-//   height: 20vh;
-//   margin: 1px;
-// }
-// #block4 {
-//   background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/tiles/20220804-t4-com.jpg);
-//   height: 20vh;
-//   margin: 1px;
-// }
-// #block5 {
-//   background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/tiles/20220804-t5-com.jpg);
-//   height: 20vh;
-//   margin: 1px;
-// }
-// #block6 {
-//   background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/tiles/20220804-t6-com.jpg);
-//   height: 20vh;
-//   margin: 1px;
-// }
-// #block7 {
-//   background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/tiles/20220630-brand-of-the-month.jpg);
-//   height: 20vh;
-// }
-// #block8 {
-//   background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/tiles/20211008-sustainable-gear.jpg);
-//   height: 20vh;
-// }
+#block1 {
+  background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/tiles/20220804-t1-com.jpg);
+  height: 20vh;
+  margin: 1px;
+}
+#block2 {
+  background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/tiles/20220804-t2-com.jpg);
+  height: 20vh;
+  margin: 1px;
+}
+#block3 {
+  background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/tiles/20220804-t3-com.jpg);
+  height: 20vh;
+  margin: 1px;
+}
+#block4 {
+  background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/tiles/20220804-t4-com.jpg);
+  height: 20vh;
+  margin: 1px;
+}
+#block5 {
+  background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/tiles/20220804-t5-com.jpg);
+  height: 20vh;
+  margin: 1px;
+}
+#block6 {
+  background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/tiles/20220804-t6-com.jpg);
+  height: 20vh;
+  margin: 1px;
+}
+#block7 {
+  background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/tiles/20220630-brand-of-the-month.jpg);
+  height: 20vh;
+}
+#block8 {
+  background-image: url(https://ifg-marketing.imgix.net/surfdome/github/com/home/tiles/20211008-sustainable-gear.jpg);
+  height: 20vh;
+}
 
 #submit {
   background-color: #206a90;
